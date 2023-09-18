@@ -1,0 +1,341 @@
+/* LOGIN PAGE */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.login-main{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainDiv{
+  height: 50vh;
+  padding: 10px 20px;
+  padding-left: 40px;
+  background-color: #FFFFFF;
+  border: solid 1px;
+  border-radius: 20px;
+  border-color: #B8B8B8;
+  padding-top: 44px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  width: 100px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px;
+  
+}
+
+.green{
+  color:#717171;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 399;
+  margin: 1px;
+}
+
+.colButton{
+  background-color: #03A500;
+  font-family: 'Poppins', sans-serif;
+  color: white; 
+  width: 155px;
+  height: 40px;
+  padding: 10px 20px; 
+  margin-top: 7px;
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+}
+.manage{
+  display: flex;
+}
+
+.login-box{
+    border-radius: 11px;
+    padding: 12px 16px;
+    border: 1px solid #646363;
+    font-family: 'Poppins', sans-serif;
+}
+.logm{
+  display: flex;
+  margin-top: 29px;
+  margin-bottom:17px;
+  font-size: 13px;
+  font-weight:600;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* mobile responsive  login page*/
+/* Media query for smaller screens */
+@media screen and (max-width: 767px) {
+.green{
+  color:#717171;
+
+}
+.colButton{
+  width: 115.39382934570312px;
+  margin-bottom: 2px;
+  margin: 0px;
+  height: 39px;
+  top: 577px;
+  left: 72.921875px;
+}
+
+ .box{
+  border-radius: 8px;
+   padding: 8px 11px;
+   
+}
+
+}
+
+/* HEADER PAGE CSS */
+
+.color-button{
+  color: black !important;
+
+}
+
+.user-name-with-line {
+  position: relative;
+}
+
+.black-line {
+  position: absolute;
+  bottom: -14px; /* Adjust this value to control the distance of the line from the text */
+  left: 0;
+  width: 100%;
+  border: none;
+  border-top: 1px solid black;
+}
+
+
+
+.header-mixed{
+  display: flex;
+  max-width: 100vw;
+  width: 100%;
+  height: 111px;
+  padding-right: 199px !important;
+  padding-left:199px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 44.11%; */
+  background: #FFFFFF;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo{
+  width: 188px;
+}
+
+.header-png{
+  width: 42px;
+  cursor: pointer;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  /* padding-left:430px; */
+}
+/* mobile responsive  header page*/
+/* Media query for smaller screens */
+@media screen and (max-width: 767px) {
+  .color-button{
+    color: black !important;
+  
+  }
+  
+  .user-name-with-line {
+    position: relative;
+  }
+  
+  .black-line {
+    position: absolute;
+    bottom: -7px; /* Adjust this value to control the distance of the line from the text */
+    left: 0;
+    width: 50%;
+    border: none;
+    border-top: 1px solid black;
+  }
+  
+  
+  
+  .header-mixed{
+    display: flex;
+    max-width: 50vw;
+    width: 170px;
+    height: 46px;
+    padding-right: 3px;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 22.11%;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-logo{
+    width: 188px;
+  }
+  
+  .header-png{
+    width: 122px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+  }
+}
+
+
+
+/* LASTPAGE CSS  */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;600&display=swap');
+
+.last-main{
+    
+    width: 580px;
+    padding-left: 23px;
+    min-height: 225px;
+    border: 1px solid rgba(3, 165, 0, 1);
+    border-radius: 15px;
+    background-color: rgba(221, 255, 220, 1);
+    margin-top: 35px;
+}
+.last-title{
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 700px;
+    width: 100%;
+  word-wrap: break-word;
+  padding-left: 12px;
+}
+.last-text{
+  
+  word-wrap: break-word; 
+  
+font-family: "poppins";
+font-weight: 400;
+font-size: 20px;
+padding-left: 12px;
+}
+.Last-common{
+    display: flex;
+    gap: 26px;
+    align-content: center;
+    margin-left: 456px;
+
+}
+.last-img{
+    padding-right: 23px;
+}
+
+/* ADDTASK NEW NOTE CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.Newnote-one{
+    width: 770px !important;
+    height: 68px !important;
+    border-radius: 10px !important;
+    font-family: "poppins"!important;
+    font-weight: 400!important;
+    font-size: 20px !important;
+    color: rgba(142, 138, 138, 1)!important;
+    
+}
+.Newnote-two{
+    width: 770px !important;
+    height: 190px !important;
+    border-radius: 19px !important;
+    font-family: "poppins" !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: rgba(142, 138, 138, 1) !important;
+    margin-top:12px !important;
+}
+
+.heading{
+    font-family: "poppins"!important;
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    line-height: 42px!important;
+
+}
+
+.one{
+    width:225px !important;
+    height: 60px!important;
+    font-family: "poppins"!important;
+    font-weight: 600px!important;
+    font-size: 15px!important;
+    border-radius: 15px!important;
+    margin-top:12px !important;
+}
+.two{
+    width: 230px !important;
+    height: 60px !important;
+    font-family: "poppins" !important;
+    background-color: rgba(3, 165, 0, 1) !important;
+    font-weight: 600px !important;
+    font-size: 15px !important;
+    border-radius: 15px !important;
+    margin-top:12px !important;
+    
+}
+.common-box{
+    display: flex !important;
+    gap: 5px!important;
+    align-content: center !important;
+}
+
+/* PAGE1 CSS */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;600&display=swap');
+.onebox{
+
+            max-width: 1600px;
+            background-color: #FFFFFF;
+            box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+            width: 100%
+
+            ;
+        }
+.page1-box {
+  width: 971px;
+  height: 180px;
+  background-color: rgba(246, 244, 244, 1);
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 22px;
+  position: relative;
+  top: 98px;
+  left: 230px;
+}
+.cng {
+  position: fixed;
+  width: 82px;
+  height: 102px;
+  object-fit: contain;
+  bottom:78px;
+  right: 280px;  
+   
+
+}
+.mainpage{
+  padding-left: 230px;
+  padding-right: 230px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 100px,200px,100px;
+  grid-gap: 20px;
+}
